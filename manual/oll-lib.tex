@@ -22,55 +22,57 @@
 %                                                                         %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%{
-   includes/stylesheets/default-a4-lied_minion.ily
-   
-   Stylesheet for a voice-piano song on A4 paper
-   with the Minion Pro font-set
-   
-   You have to have the (non-free) Adobe Minion Pro fonts
-   installed on your system to be able to use this stylesheet.
-   
-%}
+\documentclass{OLLbook}
 
-#(ly:set-option 'relative-includes #t)
-% Condensed layout with 'semibold' appearance
-\include "default-a4-lied_base.ily"
-% Switch all grobs to Adobe Minion Pro
-\include "../fontsets/fontset_Minion-Pro.ily"
+\title{oll-lib}
+\author{Urs Liska}
 
-% Adjust the font sizes to the combination of the stylesheet and the font
-\layout {
-  
-  \context {
-    \Score
-    \override BarNumber #'font-size = #1.25
-    \override DynamicTextSpanner #'font-size = #0.5
-    \override LyricText #'font-size = #1.25
-    \override MetronomeMark #'font-size = #2
-    \override MultiMeasureRestText #'font-size = #0.5
-    \override OttavaBracket #'font-size = #0.3
-    \override TextScript #'font-size = #0.5
-    \override TextSpanner #'font-size = #0.5
-    \override TupletNumber #'font-size = #-1
-  }
+\begin{document}
+\maketitle
+\tableofcontents
 
-  \context {
-    \PianoStaff
-    \override InstrumentName #'font-size = #1.25
-  }
+\chapter{Introduction}
 
-  \context {
-    \Staff
-    \override InstrumentName #'font-size = #1.25
-  }
+\section{What is openLilyLib?}
+\begin{itemize}
+\item Motivation for creating the library.
+\item Comparison to the LSR
+\item (Conclusion from the two former items:) Strong interest in usability improvements
+\end{itemize}
 
-  \context {
-    \Dynamics
-    \override TextScript #'font-size = #1.2 % has to be set separately (a bug?)
-    \override TextSpanner #'font-size = #1.2
-    \override DynamicTextSpanner #'font-size = #1.2
-  }
+\section{Requirements and Installation}
 
-}
-    
+
+\chapter{Using the Library}
+
+\section{Full Library and Partial Sublibraries}
+
+\section{The draftMode Concept}
+
+
+
+
+\chapter{Using the Other Includes}
+
+\section{Score Blocks}
+
+\section{Style Sheets}
+
+
+
+\chapter{Using the Examples and Templates}
+
+
+
+\chapter{Contributing}
+
+
+
+\chapter{Library Reference}
+\begin{itemize}
+\item Alphabetical reference chart(s)
+\item One big chart or separate charts by category?
+\end{itemize}
+
+
+\end{document}

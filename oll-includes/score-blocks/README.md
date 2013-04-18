@@ -1,4 +1,4 @@
-OLLincludes/scoreBlocks
+oll-includes/score-blocks
 -----------------------
 
 This folder contains score blocks that can be used in LilyPond documents.

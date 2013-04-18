@@ -1,4 +1,4 @@
-OLLincludes/stylesheets
+oll-includes/stylesheets
 ---------------------
 
 This folder contains modular stylesheets that can be used for LilyPond scores.
