@@ -35,7 +35,7 @@
 %}
 
 #(ly:set-option 'relative-includes #t)
-\include "../draftMode/draftMode_colors.ily"
+\include "../draft-mode/draft-mode_colors.ily"
 
 %{ \comment
    Post an editor's comment in the source file and attach it to a grob.
@@ -158,6 +158,6 @@ poke =
 
 % Conditionally include _draftMode.ily
 #(define-public draft-mode-file "editorialToolbox/inSourceCommunication")
-\include "OLLib/draftMode.ily"
+\include "oll-lib/draft-mode.ily"
 
     

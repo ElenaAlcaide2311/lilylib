@@ -34,6 +34,6 @@
 %}
 
 #(ly:set-option 'relative-includes #t)
-\include "inSourceCommunication.ily"
+\include "in-source-communication.ily"
 
 %TODO: Add editoral.ily (from ulLibrary)

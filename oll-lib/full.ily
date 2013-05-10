@@ -31,13 +31,13 @@
 #(ly:set-option 'relative-includes #t)
 
 % Editorial additions and (multiple editors') productivity tools
-\include "toolboxes/editorialToolbox/editorialToolbox.ily"
+\include "toolboxes/editorial/editorial-tb.ily"
 
 % Tools to simplify the usage of piano music
-\include "toolboxes/pianoToolbox/pianoToolbox.ily"
+\include "toolboxes/piano/piano-tb.ily"
 
 % Tools that enhance the compilation process
-\include "toolboxes/compilationToolbox/compilationToolbox.ily"
+\include "toolboxes/compilation/compilation-tb.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Includes that are not imported from the old ulLibrary

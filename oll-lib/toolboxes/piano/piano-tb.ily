@@ -33,4 +33,4 @@
 %}
 
 #(ly:set-option 'relative-includes #t)
-\include "pianoStaff.ily"
+\include "piano-staff.ily"

@@ -33,5 +33,5 @@
 %}
 
 #(ly:set-option 'relative-includes #t)
-\include "writeBook.ily"
-\include "writeScore.ily"
+\include "write-book.ily"
+\include "write-score.ily"
